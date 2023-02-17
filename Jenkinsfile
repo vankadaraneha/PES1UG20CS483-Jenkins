@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh 'g++ temp.cpp -o temp'
                  build job: 'PES1UG20CS483-1', wait: false
-                 echo 'Successfully built -Neha'
+                 ech 'Successfully built -Neha'
             }
         }
 
